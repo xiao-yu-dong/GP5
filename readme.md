@@ -79,13 +79,18 @@
 ## 正常提交（非第一次）
 - git add . 提交到暂存区
 - git commit -m '注释' 提交到本地仓库
-- git push 提交到远程仓库（）
+- git pull 先更新远程到本地
+- git push 提交到远程仓库（默认提交到origin上的master分支）
 
 ## 修改关联的远程仓库地址
 - git remote rm origin    删除远程地址
 - git remote add origin ssh地址      添加新的地址
 
-
 ## 更新代码
 - 确保自己工作区的代码先提交到本地仓库
-- 然后再从远程更新到本地
+- 然后再从远程更新到本地  git pull 
+- 
+
+
+## 修改
+000
