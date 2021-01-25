@@ -89,20 +89,18 @@
 ## 更新代码
 - 确保自己工作区的代码先提交到本地仓库
 - 然后再从远程更新到本地  git pull 
-- git clone 远程仓库地址 （克隆代码到本地）
+- 
 
 
-<<<<<<< HEAD
-## 分支
-- git branch  查看当前所有分支
-- 当前分支名前有一个星号
-- git branch ‘分支名’  创建一个分支
-- git checkout ‘分支名’  切换分支
- 
-=======
 ## 修改
 000
 
-## test分支
-- 添加内容
->>>>>>> test
+## 分支操作
+- git branch 查看当前所有分支
+- 当前分支名有个星号
+- git branch ‘分支名’ 创建一个分支
+- git checkout ‘分支名’
+- git merge ‘分支名’ 合并某分支到当前分支
+- git branch -d ‘分支名’  删除某分支
+- git push origin ‘分支名’ 
+ 
