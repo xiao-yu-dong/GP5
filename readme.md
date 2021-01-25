@@ -55,3 +55,20 @@
 - git reset --hard 版本号  ‘1c030a8’  （回退到指定版本）
 - 工作区自动变为指定版本的代码
 - 注意把当前代码先提交到本地仓库
+
+## 查看变动信息
+- git diff '文件名'
+- 会列出该文件前后的差异
+
+## 创建远程仓库
+- 进入 github官网
+- 创建一个新的远程仓库
+
+## 将本地仓库与远程仓库关联
+- git remote add origin https://github.com/xiao-yu-dong/GP5.git 你的远程仓库地址  （设置，关联地址）
+- git remote -v  查看本地仓库关联的远程仓库地址
+
+## 将本地仓库提交到远程仓库
+- git push -u origin master 第一次提交到远程
+- git push 将本地仓库提交到远程仓库
+- -u origin master 设置默认的提交地址和分支
