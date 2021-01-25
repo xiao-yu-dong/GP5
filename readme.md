@@ -73,5 +73,15 @@
 - git push 将本地仓库提交到远程仓库
 - -u origin master 设置默认的提交地址和分支
 
-# 清屏
+## 清屏
 - git clear
+
+## 正常提交（非第一次）
+- git add . 提交到暂存区
+- git commit -m '注释' 提交到本地仓库
+- git push 提交到远程仓库（）
+
+## 修改关联的远程仓库地址
+- git remote rm origin    删除远程地址
+- git remote add origin ssh地址      添加新的地址
+- 
