@@ -103,4 +103,9 @@
 - git merge ‘分支名’ 合并某分支到当前分支
 - git branch -d ‘分支名’  删除某分支
 - git push origin ‘分支名’ 
+- git pull origin ‘分支名’ 将某个分支更新到本地仓库
  
+ ## fetch和pull的区别
+ 1. 他们都用于从远程更新到本地
+ 2. git fetch 不会自动合并到当前分支（不会merge）
+ 3. git pull 会自动合并到当前分支（会merge）
